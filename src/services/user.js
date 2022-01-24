@@ -3,7 +3,7 @@ import qs from 'qs'
 
 // 用户登入接口
 export const login = data => {
-  request({
+  return request({
     method: 'POST',
     url: '/front/user/login',
     data: qs.stringify(data)
