@@ -17,9 +17,9 @@ const request = axios.create({
 
 function getBaseURL (url) {
   if (url.startsWith('/boss')) {
-    return 'http://eduboss.lagou.com'
+    return 'http://eduboss.lagounews.com'
   } else {
-    return 'http://edufront.lagou.com'
+    return 'http://edufront.lagounews.com'
   }
 }
 
